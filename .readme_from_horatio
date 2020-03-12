@@ -1,0 +1,12 @@
+# Поднятие отрс вместе с машей и постфиксом
+# sudo docker-compose -f docker-compose-prod.yml up
+# если что то пойдет не так ctrl + C
+# sudo docker-compose -f docker-compose-prod.yml down
+#   все настройки происходят в файле ".env"
+#   настройка говрящая о том что нужно востановиться
+#   OTRS_INSTALL=restore
+#   откуда делатть бэкапп все бэкапы находятся в otrs/docker-otrs-master/volumes/backup
+#   OTRS_BACKUP_DATE=otrs-2020-03-12_12-20-fullbackup.tar.gz
+#   как часто делать бэкапы
+#   OTRS_BACKUP_TIME="20 * * * *"
+#

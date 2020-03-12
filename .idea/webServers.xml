@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a8e8bdf6-dd31-4419-ae2c-2bc52b65e9df" name="dev02" url="https://213.219.215.230">
+        <fileTransfer host="213.219.215.230" port="22" privateKey="$USER_HOME$/workstation/ilyuxa.pem" rootFolder="/home/iulanovich" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
